@@ -1,0 +1,44 @@
+ 137  touch file1
+  138  pwd
+  139  ls -lh
+  140  ls --help >file1
+  141  ls -lh
+  142  ls --help >>file1
+  143  ls -lh
+  144  cat file1 >> file2
+  145  clear
+  146  cat file2 >> file3
+  147  clear
+  148  cat file2 >> file3
+  149  ls -lh
+  150  cat file3 >> file4
+  151  ls -lh
+  152  rm -rf file1 file2 file3
+  153  cp file4 file1
+  154  cp file4 file2
+  155  cp file4 file3
+  156  ls -lh file*
+  157  tar cvf Arch1.tar file*
+  158  ls -lh
+  159  rm -f file*
+  160  tar tf Arch1.tar
+  161  tar xvf Arch1.tar
+  162  ls -lh
+  163  file Arch1.tar
+  164  gzip -v file1
+  165  ls -lh
+  166  zcat file1.gz
+  167  gunzip -v file1.gz
+  168  ls -lh
+  169  gzip  file1
+  170  bzip2 -v file2
+  171  ls -lh
+  172  bzcat file2.bz2
+  173  gunzip file1.gz
+  174  bunzip2 file2.bz2
+  175  zip Arch2.zip file*
+  176  ls -lh
+  177  unzip -l Arch2.zip
+  178  unzip  Arch2.zip
+  179  history
+[root@Master ~]#

@@ -1,0 +1,30 @@
+Master(Log Server)
+====================
+ 111  firewall-cmd --add-port=514/tcp
+ 112  firewall-cmd --add-port=514/tcp --permanent
+ 113  firewall-cmd --add-port=514/udp --permanent
+ 114  firewall-cmd --list-ports
+ 115  firewall-cmd --reload
+ 116  firewall-cmd --list-ports
+ 117  systemctl status rsyslog.service
+ 118  vim /etc/rsyslog.conf
+ 119  systemctl restart rsyslog.service
+
+=================================================
+Worker(Client)
+=================
+   31  systemctl status rsyslog.service 
+   32  vim /etc/rsyslog.conf 
+   33  systemctl restart rsyslog.service 
+   34  cd
+   35  systemctl restart rsyslog.service 
+   36  vim /etc/rsyslog.conf 
+   37  systemctl stop crond 
+   38  systemctl start crond 
+   39  vim /etc/rsyslog.conf 
+   40  systemctl restart rsyslog.service 
+   41  systemctl start crond 
+   42  systemctl stop crond 
+   43  history 
+[root@Worker ~]# 
+

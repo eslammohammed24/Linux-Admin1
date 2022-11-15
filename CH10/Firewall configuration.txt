@@ -1,0 +1,9 @@
+ 103  systemctl status firewalld.service
+ 104  firewall-cmd --list-all
+ 105  firewall-cmd --add-service=ftp
+ 106  firewall-cmd --list-services
+ 107  firewall-cmd --list-ports
+ 108  firewall-cmd --remove-service=ftp
+ 109  firewall-cmd --reload
+ 110  history
+[root@Master ~]#

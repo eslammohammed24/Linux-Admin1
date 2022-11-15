@@ -1,0 +1,99 @@
+[root@Master ~]# history
+    1  ls
+    2  ps
+    3  ls
+    4  pwd
+    5  userid
+    6  pwd
+    7  username
+    8  cd
+    9  ip add
+   10  systemctl start sshd
+   11  systemctl enable sshd
+   12  systemctl status sshd
+   13  vim /etc/ssh/ssh_config
+   14  sudo apt install
+   15  sudo apt install ssh
+   16  dnf install openssh-server
+   17  firewall-cmd --zone=public --permanent --add-service=ssh
+   18  firewall-cmd --reload
+   19  systemctl reload sshd.service
+   20  ls
+   21  ip add
+   22  cd
+   23  ip add
+   24  ifconfig
+   25  ifconfig ens160 192.168.56.5
+   26  ifconfig
+   27  cd
+   28  vim /etc/sysconfig/network-scripts/ifcfg-ens160
+   29  ifconfig
+   30  cd
+   31  ifconfig
+   32  ping 192.168.56.6
+   33  cd
+   34  ssh 192.168.56.6
+   35  vim /etc/hostname
+   36  rebout
+   37  reboot
+   38  cd
+   39  vim /etc/hostname
+   40  reboot
+   41  cd
+   42  cd
+   43  ping 192.168.56.6
+   44  ifconfig
+   45  ping 192.168.56.6
+   46  ifconfig
+   47  ping 192.168.56.1
+   48  cd
+   49  ifconfig
+   50  cd
+   51  ifconfig
+   52  ping 192.168.56.1
+   53  cd
+   54  ifconfig
+   55  cd
+   56  ping 192.168.56.6
+   57  vim /etc/hostname
+   58  vim /etc/sysconfig/network-scripts/ifcfg-ens160
+   59  vim /etc/ssh/ssh_config
+   60  ping 192.168.56.6
+   61  ping 192.168.56.6
+   62  ssh root@192.168.56.6
+   63  vim /etc/ssh/ssh_config
+   64  ssh root@192.168.56.6
+   65  ssh 192.168.56.6
+   66  cd
+   67  ssh root@192.168.56.6
+   68  vim /etc/ssh/ssh_config
+   69  ssh root@192.168.56.6
+   70  ssh 192.168.56.6
+   71  cd
+   72  systemctl start NetworkManager.service
+   73  systemctl stop NetworkManager.service
+   74  systemctl restart NetworkManager.service
+   75  nmcli networking off
+   76  nmcli networking on
+   77  ifconfig ens160
+   78  systemctl restart NetworkManager.service
+   79  systemctl start NetworkManager.service
+   80  systemctl status NetworkManager.service
+   81  ifconfig ens160
+   82  systemctl start NetworkManager.service
+   83  systemctl stop NetworkManager.service
+   84  systemctl restart NetworkManager.service
+   85  systemctl status NetworkManager.service
+   86  systemctl restart NetworkManager.service
+   87  ls
+   88  ls -l
+   89  ls
+   90  ifconfig
+   91  ifconfig ens160
+   92  vim /etc/sysconfig/network-scripts/ifcfg-ens160
+   93  vim /etc/hostname
+   94  ssh 192.168.56.6
+   95  history
+   96  ping 192.168.56.6
+   97  history
+[root@Master ~]#

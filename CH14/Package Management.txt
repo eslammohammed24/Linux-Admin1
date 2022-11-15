@@ -1,0 +1,26 @@
+181  cat /etc/*release*
+  182  ls /run/media/root/RHEL-8-5-0-BaseOS-x86_64/
+  183  ls /run/media/root/RHEL-8-5-0-BaseOS-x86_64/AppStream/
+  184  ls /run/media/root/RHEL-8-5-0-BaseOS-x86_64/AppStream/Packages/
+  185*
+  186  ls /run/media/root/RHEL-8-5-0-BaseOS-x86_64/BaseOS/Packages/ | wc -l
+  187  rpm -q bash
+  188  rpm -q ksh
+  189  rpm -q --all
+  190  rpm -q --all  | wc -l
+  191  rpm -ivh /run/media/root/RHEL-8-5-0-BaseOS-x86_64/AppStream/Packages/ksh-20120801-254.el8.x86_64.rpm
+  192  rpm -q ksh
+  193  rpm -e ksh
+  194  rpm -q ksh
+  195  mkdir /var/myrepo
+  196  cp -r /run/media/root/RHEL-8-5-0-BaseOS-x86_64/AppStream   /var/myrepo/
+  197  cp -rv /run/media/root/RHEL-8-5-0-BaseOS-x86_64/BaseOS    /var/myrepo/
+  198  ls /var/myrepo/
+  199  ls /var/myrepo/AppStream/
+  200  ls /var/myrepo/BaseOS/
+  201  vim /etc/yum.repos.d/myrepo.repo
+  202  yum install ksh
+  203  yum info ksh
+  204  yum install virt-manager
+  205  virt-manager
+  206  history

@@ -1,0 +1,26 @@
+[root@Worker ~]# history
+    1  ls
+    2  ps
+    3  ls
+    4  pwd
+    5  ifconfig
+    6  logout
+    7  cd
+    8  vim /etc/hostname
+    9  reboot
+   10  ping 192.168.56.5
+   11  vim /etc/hostname
+   12  reboot
+   13  cd
+   14  ping 192.168.56.5
+   15  ifconfig
+   16  logout
+   17  ping 192.168.56.5
+   18  cd
+   19  vim /etc/ssh/ssh_config
+   20  ssh 192.168.1.3
+   21  ls
+   22  systemctl restart NetworkManager.service
+   23  ping 192.168.56.5
+   24  history
+[root@Worker ~]#
